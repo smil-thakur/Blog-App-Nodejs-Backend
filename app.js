@@ -6,7 +6,7 @@ import blogRouter from "./routes/blogRoutes.js";
 const app = express();
 
 
-mongoose.connect("mongodb+srv://admin:QAZ123%4011sept@cluster0.rmy7tsq.mongodb.net/Blog?retryWrites=true&w=majority")
+mongoose.connect("MONGODB CONNECT KEY_HERE")
     .then(() => app.listen(3000))
     .then(() => console.log("Conneted to database"))
     .catch((err) => console.log("err", err));
